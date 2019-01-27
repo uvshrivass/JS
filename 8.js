@@ -1,7 +1,7 @@
 // Program to check whether a charater is vowel or consonant.
 
 var vowel = ["a","e","i","o","u", "A", "E", "I", "O", "U"];
-var char = "h";
+var char = "o";
 
 for (i=0; i<vowel.length; i++){
   

@@ -4,13 +4,8 @@ function binary(x){
     if (x == 0){
         return;
     }
-  while (x > 1){
-      array=[]
-      array.push(x%2)
-      binary(parseInt(x/2))
-      
-  }
-  console.log(array)
+  console.log(x%2)
+  binary(parseInt(x/2))
 }
 
 

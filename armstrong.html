@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Armstrong</title>
+    <script>
+    
+    function armstrong(){
+        var num1 = document.getElementById("num").value;
+        var len = num1.length;
+        var sum = 0;
+
+       for (i=0; i<len ; i++){
+            var digit = parseInt(num1[i]);
+            sum += digit ** len;
+
+       }
+       if (sum == parseInt(num1)){
+           document.getElementById("message").innerHTML= "Its an armstrong."
+       }
+       else {
+        document.getElementById("message").innerHTML= "Its not an armstrong."
+       }
+
+    }
+    
+    </script>
+</head>
+<body>
+
+    <center>
+        <h1>Armstrong Number Checker</h1>
+        <p>Please enter a number</p>
+        <input type=number id="num">
+        <button onclick="armstrong()">Check</button>
+        <p id='message'></p>
+    </center>
+    
+</body>
+</html>
+

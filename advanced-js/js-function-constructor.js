@@ -20,10 +20,3 @@ console.log(Object.keys(person1));
 for(var prop in person1){
     console.log(prop);
   }
-
-function abc(){
-    this.x = 100;
-}
-
-var abc1 = new abc();
-console.log(abc1.x)

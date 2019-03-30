@@ -2,6 +2,7 @@
 // We can create an object of any function using "new" keyword
 // "Person" is a constructor function or acts as a class and "person1" is its object
 // Variable "this.firstname" & "this.lasttname" will act like properties
+// The "new" keyword constructs and returns an object(instance) of a constructor function
 
 function Person (){
     this.firstname = "";

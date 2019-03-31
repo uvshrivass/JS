@@ -9,7 +9,7 @@ function Person(FirstName, LastName, Age) {
         }
 };
 
-var person1 = new Person("Ujjwal","Shrivas",30);
+var person1 = new Person("Virat","Kohli",30);
 console.log("Hello " + person1.getFullName() + " You are " + person1.age + " years old.");
 
 // Use "Object.keys()" method to retrieve all the properties name for the specified object as a string array.

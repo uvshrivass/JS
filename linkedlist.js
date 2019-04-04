@@ -43,6 +43,7 @@ LinkedList.prototype.addToHead = function(value) {
 
 };
 
+// Remove from head
 LinkedList.prototype.removeHead = function(){
 
     if(!this.head){
@@ -64,6 +65,7 @@ LinkedList.prototype.removeHead = function(){
 
 };
 
+// Remove from tail
 LinkedList.prototype.removeTail = function(){
 
     if(!this.tail){
